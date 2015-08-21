@@ -9,4 +9,8 @@ class TestTypes extends FunSuite {
   test("float") {
     assert(3.14 == 3.14)
   }
+
+  test("string") {
+    assert("abc" == "abc")
+  }
 }
