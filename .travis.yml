@@ -1,10 +1,4 @@
 language: scala
 scala:
- - 2.11.2
-sudo: false
-cache:
-  directories:
-    - $HOME/.ivy2/cache
-    - $HOME/.sbt/boot/
-script: "sbt clean coverage test"
-after_success: "sbt coveralls"
+  - 2.10.3
+script: "sbt coveralls"
