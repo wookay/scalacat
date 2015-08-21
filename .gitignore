@@ -1,2 +1,3 @@
-TestCases/classes/*
+classes/*
 .DS_Store
+*.swp

@@ -2,4 +2,4 @@ language: scala
 scala:
  - 2.11.2
 script:
- - cd TestCases/ && make
+ - script: "sbt coveralls"
